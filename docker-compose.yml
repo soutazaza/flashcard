@@ -3,4 +3,4 @@ services:
     build: .
     pull_policy: build
     ports:
-      - 80:5000
+      - 6969:5000
