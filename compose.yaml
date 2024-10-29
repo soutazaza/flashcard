@@ -1,5 +1,5 @@
 services:
-  web:
+  webapp:
     build: .
     pull_policy: build
     ports:
