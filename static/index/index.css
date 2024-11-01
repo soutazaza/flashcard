@@ -36,6 +36,7 @@ button {
 button:hover {
     background-color: #EEEEEE;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .card {
