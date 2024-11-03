@@ -44,6 +44,7 @@ button:hover {
     aspect-ratio: 2;
 
     font-size: 20vw;
+    word-wrap: break-word;
 
     background-color: #EEEEEE;
 
@@ -56,9 +57,6 @@ button:hover {
 }
 
 .card p {
-    font-size: clamp(1rem, 30cqi, 5rem);
-}
-
-#cardId {
-    display: none;
+    font-size: 5vw;
+    padding: 7vw;
 }
