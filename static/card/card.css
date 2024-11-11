@@ -27,8 +27,7 @@ button {
     font-size: 4vh;
 
     position: absolute;
-    top: 0;
-    border: 0;
+    border: none;
 
     background-color: #00ADB5;
 }
@@ -36,6 +35,16 @@ button {
 button:hover {
     background-color: #EEEEEE;
     cursor: pointer;
+}
+
+#cardId {
+    top: 0;
+}
+
+
+
+#editBtn {
+    bottom: 0;
 }
 
 .card {
@@ -51,7 +60,7 @@ button:hover {
     text-align: center;
     align-content: center;
 
-    user-select: none;
+    user-select: text;
 
     container-type: inline-size;
 }
