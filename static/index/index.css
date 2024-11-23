@@ -40,22 +40,27 @@ button:hover {
 }
 
 .card {
-    height: 40vw;
+    height: 20vw;
     max-height: 500px;
-    aspect-ratio: 2;
-
-    font-size: 20vw;
+    aspect-ratio: 4;
+    margin-top: 32px;
 
     background-color: #EEEEEE;
 
+    list-style-type: none;
+
+    user-select: none;
+    cursor: pointer;
+}
+
+.card a {
+    font-size: 4vw;
+    color: #222831;
+    text-decoration: none;
     text-align: center;
     align-content: center;
 
-    user-select: none;
+    display: block;
 
-    container-type: inline-size;
-}
-
-.card p {
-    font-size: clamp(1rem, 30cqi, 5rem);
+    height: 100%;
 }

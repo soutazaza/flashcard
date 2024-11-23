@@ -10,5 +10,9 @@ def index():
 def card(id):
     return render_template("card.html", id=id)
 
+@app.route('/edit/<id>')
+def edit(id):
+    return render_template("edit.html", id=id)
+
 if __name__=="__main__":
     app.run(host='0.0.0.0',port=5000)
